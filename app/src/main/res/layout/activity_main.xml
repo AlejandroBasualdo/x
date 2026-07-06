@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_cream"
+    android:orientation="vertical">
+
+    <!-- Header -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/header_yellow"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/logo_app" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:textColor="@color/primary_blue"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <!-- Menu Buttons Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/primary_blue"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@android:drawable/ic_input_add"
+            android:text="@string/title_registrar"
+            android:textAllCaps="false"
+            android:textColor="@color/primary_blue" />
+
+        <Button
+            android:id="@+id/btnHistorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@android:drawable/ic_menu_recent_history"
+            android:text="@string/title_historial"
+            android:textAllCaps="false"
+            android:textColor="@color/primary_blue" />
+
+        <Button
+            android:id="@+id/btnEscaneo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@android:drawable/ic_menu_camera"
+            android:text="@string/title_escaneo"
+            android:textAllCaps="false"
+            android:textColor="@color/primary_blue" />
+
+        <Button
+            android:id="@+id/btnStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@android:drawable/ic_menu_manage"
+            android:text="@string/title_stock"
+            android:textAllCaps="false"
+            android:textColor="@color/primary_blue" />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@android:drawable/ic_menu_delete"
+            android:text="@string/title_eliminar"
+            android:textAllCaps="false"
+            android:textColor="@color/primary_blue" />
+
+        <Button
+            android:id="@+id/btnCerrarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/header_yellow"
+            android:drawableStart="@android:drawable/ic_lock_power_off"
+            android:text="@string/title_cerrar_sesion"
+            android:textAllCaps="false"
+            android:textColor="@color/primary_blue" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AccesStock</string>
+    <string name="title_registrar">Registrar Producto</string>
+    <string name="title_historial">Historial de Productos Registrados</string>
+    <string name="title_escaneo">Escaneo de Productos</string>
+    <string name="title_stock">Stock de Productos</string>
+    <string name="title_eliminar">Eliminar Producto</string>
+    <string name="title_cerrar_sesion">Cerrar Sesión</string>
+    <string name="prompt_ingresar_datos">Ingresar Datos:</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_detalles">Detalles \"Opcional\"</string>
+    <string name="hint_stock">Stock</string>
+    <string name="hint_codigo_barras">Código de Barras</string>
+    <string name="hint_proveedor">Proveedor</string>
+    <string name="btn_guardar">GUARDAR</string>
+    <string name="btn_capturar">Capturar</string>
+    <string name="label_filtrar">Filtrar por letra</string>
+    <string name="msg_escanear">Por favor, escanee el código de barras\ndel producto</string>
+    <string name="hint_introducir_codigo">Introducir código de barras</string>
+    <string name="desc_barcode_preview">Vista previa del escaneo</string>
+    <string name="col_producto">Producto</string>
+    <string name="col_proveedor">Proveedor</string>
+    <string name="col_fecha">Fecha Reg.</string>
+    <string name="col_stock_ingreso">Stock Ingreso</string>
+    <string name="col_stock">Stock</string>
+    <string name="col_acciones">Acciones</string>
+    <string name="title_login">Iniciar Sesión</string>
+    <string name="hint_usuario">Usuario / Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">ENTRAR</string>
+    <string name="error_login">Error al iniciar sesión</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_blue">#0056b3</color>
+    <color name="background_cream">#FEF5D4</color>
+    <color name="header_yellow">#FFD54F</color> <!-- Adjusting based on mockup look -->
+    <color name="button_blue">#0056b3</color>
+</resources>

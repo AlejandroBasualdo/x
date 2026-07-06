@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "590740980837",
+    "project_id": "accesstock-d48d6",
+    "storage_bucket": "accesstock-d48d6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590740980837:android:25c77f061c6a84b0c5b28c",
+        "android_client_info": {
+          "package_name": "com.example.accesstock"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8XxcSB88K9UeE1Ukjm1EMydUpomPW3RU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
