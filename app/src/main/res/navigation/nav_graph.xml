@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.accesstock.auth.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_loginFragment_to_menuAdminFragment"
+            app:destination="@id/menuAdminFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/action_loginFragment_to_menuEmpleadoFragment"
+            app:destination="@id/menuEmpleadoFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/menuAdminFragment"
+        android:name="com.example.accesstock.admin.MenuAdminFragment"
+        android:label="Menú Admin"
+        tools:layout="@layout/fragment_menu_admin">
+
+        <action
+            android:id="@+id/action_menuAdminFragment_to_reportesFragment"
+            app:destination="@id/reportesFragment" />
+
+        <action
+            android:id="@+id/action_menuAdminFragment_to_stockFragment"
+            app:destination="@id/stockFragment" />
+
+        <action
+            android:id="@+id/action_menuAdminFragment_to_eliminarProductoFragment"
+            app:destination="@id/eliminarProductoFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/menuEmpleadoFragment"
+        android:name="com.example.accesstock.empleado.MenuEmpleadoFragment"
+        android:label="Menú Empleado"
+        tools:layout="@layout/fragment_menu_empleado">
+
+        <action
+            android:id="@+id/action_menuEmpleadoFragment_to_registrarProductoFragment"
+            app:destination="@id/registrarProductoFragment" />
+        <action
+            android:id="@+id/action_menuEmpleadoFragment_to_stockFragment"
+            app:destination="@id/stockFragment" />
+        <action
+            android:id="@+id/action_menuEmpleadoFragment_to_historialFragment"
+            app:destination="@id/historialFragment" />
+        <action
+            android:id="@+id/action_menuEmpleadoFragment_to_eliminarProductoFragment"
+            app:destination="@id/eliminarProductoFragment" />
+        <action
+            android:id="@+id/action_menuEmpleadoFragment_to_escaneoFragment"
+            app:destination="@id/escaneoFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/registrarProductoFragment"
+        android:name="com.example.accesstock.empleado.RegistrarProductoFragment"
+        android:label="Registrar Producto"
+        tools:layout="@layout/fragment_registrar_producto" />
+
+    <fragment
+        android:id="@+id/stockFragment"
+        android:name="com.example.accesstock.empleado.StockFragment"
+        android:label="Stock de Productos"
+        tools:layout="@layout/fragment_stock" />
+
+    <fragment
+        android:id="@+id/historialFragment"
+        android:name="com.example.accesstock.empleado.HistorialFragment"
+        android:label="Historial de Registros"
+        tools:layout="@layout/fragment_historial" />
+
+    <fragment
+        android:id="@+id/eliminarProductoFragment"
+        android:name="com.example.accesstock.empleado.EliminarProductoFragment"
+        android:label="Eliminar Producto"
+        tools:layout="@layout/fragment_eliminar" />
+
+    <fragment
+        android:id="@+id/escaneoFragment"
+        android:name="com.example.accesstock.empleado.EscaneoFragment"
+        android:label="Escaneo de Productos"
+        tools:layout="@layout/fragment_escaneo">
+
+        <action
+            android:id="@+id/action_escaneoFragment_to_registrarProductoFragment"
+            app:destination="@id/registrarProductoFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/reportesFragment"
+        android:name="com.example.accesstock.admin.ReportesFragment"
+        android:label="Reportes Generales"
+        tools:layout="@layout/fragment_reportes" />
+
+</navigation>

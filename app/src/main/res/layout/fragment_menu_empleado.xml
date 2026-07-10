@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FDF3D7">
+
+    <!-- Barra superior -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5D566"
+        android:padding="20dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acces Stock"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1A3C8C"/>
+    </LinearLayout>
+
+    <!-- Tarjeta azul con botones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#1A3C8C"
+        android:padding="20dp"
+        android:layout_margin="24dp">
+
+        <Button
+            android:id="@+id/btnRegistrarProducto"
+            style="@style/BotonMenu"
+            android:text="Registrar Producto"/>
+
+        <Button
+            android:id="@+id/btnHistorial"
+            style="@style/BotonMenu"
+            android:text="Historial de Registros"/>
+
+        <Button
+            android:id="@+id/btnEscaneo"
+            style="@style/BotonMenu"
+            android:text="Escaneo de Productos"/>
+
+        <Button
+            android:id="@+id/btnStock"
+            style="@style/BotonMenu"
+            android:text="Stock de Productos"/>
+
+        <Button
+            android:id="@+id/btnEliminar"
+            style="@style/BotonMenu"
+            android:text="Eliminar Producto"/>
+
+        <Button
+            android:id="@+id/btnCerrarSesion"
+            style="@style/BotonMenu"
+            android:text="Cerrar Sesión"/>
+
+    </LinearLayout>
+
+</LinearLayout>
